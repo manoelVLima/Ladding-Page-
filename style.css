@@ -1,0 +1,109 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/*
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+:root{
+    --font: 'Roboto', sans-serif;
+}
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-titulo{
+    line-height: 25px;
+}
+.header-list-item ul li {
+    display: inline-block;
+    margin: 20px;
+
+    
+    
+}
+#botao{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+.header-list-item ul a{
+    color: white;
+    list-style: none;
+    width: 90px;
+    
+    
+}
+.header-list-item ul a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+.main{
+    display: flex;
+    margin-top: 60px;
+}
+.main h2{
+    font-size: 56px;
+    line-height: 45px;
+}
+.main p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 500px;
+    line-height: 25px;
+}
+span{
+    color: rgb(132, 14, 201);
+}
+img{
+    width: 600px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#botao1{
+    height: 40px;
+    width: 100px;
+    line-height: 12px;
+    text-align: center;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+input{
+    margin-top: 20px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+
+}
+footer{
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
